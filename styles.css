@@ -3,11 +3,13 @@
   --primary-color: #831843;
   --light-pink: #fbcfe8;
   --off-white: #f3f4f6;
+  --dark: #121212;
+  --white: #ffffff;
 }
 body {
   font-family: "Raleway", sans-serif;
-  color: white;
-  background-color: black;
+  color: var(--white);
+  background-color: var(--dark);
   margin: 0px;
 }
 .container {
@@ -21,7 +23,7 @@ body {
 .primary-link {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
-  color: white;
+  color: var(--white);
 }
 .link {
   padding: 0.5rem 1rem;
@@ -45,12 +47,12 @@ hr {
 }
 .navigation {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
   padding: 1rem;
   border-bottom-left-radius: 1rem;
 }
 .navigation .link {
-  color: white;
+  color: var(--white);
 }
 .nav-pills {
   text-align: right;
@@ -75,8 +77,8 @@ hr {
   color: var(--light-pink);
 }
 .section-black {
-  background-color: black;
-  color: white;
+  background-color: var(--dark);
+  color: var(--white);
   text-align: center;
   padding: 2rem;
 }
@@ -85,7 +87,7 @@ hr {
 }
 .section-ow {
   background-color: var(--light-pink);
-  color: black;
+  color: var(--dark);
   text-align: center;
   padding: 2rem;
 }
@@ -93,11 +95,11 @@ hr {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
-  color: white;
+  color: var(--white);
   border-top-right-radius: 1rem;
 }
 .footer .link {
-  color: white;
+  color: var(--white);
 }
 .footer ul {
   padding-inline-start: 0rem;
